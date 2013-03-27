@@ -94,9 +94,9 @@ can be downloaded by cloning! )
 * [**Chapter 4: The Greatest Theorem Never
     Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law
-    of Large Numbers. Examples include: - Exploring a Kaggle dataset
-    and the pitfalls of naive analysis - How to sort Reddit comments
-    from best to worst (not as easy as you think)
+    of Large Numbers. Examples include: 
+    - Exploring a Kaggle dataset and the pitfalls of naive analysis 
+    - How to sort Reddit comments from best to worst (not as easy as you think)
     
 * [**Chapter 5: Would you rather loss an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/LossFunctions.ipynb)
     The introduction of Loss functions and there (awesome) use in
@@ -106,7 +106,6 @@ can be downloaded by cloning! )
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition.
     
-
 * **Chapter 6: Getting our *prior*-ities straight** Probably the most
     important chapter. We draw on expert opinions to answer questions
     like:
