@@ -73,14 +73,16 @@ can be downloaded by cloning! )
     Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
     Introduction to the philosophy and practice of Bayesian methods
     and answering the question "What is probabilistic programming?"
-    Examples include: - Inferring human behaviour changes from text
-    message rates.
+    Examples include: 
+
+    - Inferring human behaviour changes from text message rates.
     
 * [**Chapter 2: A little more on
     PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
     We explore modeling Bayesian problems using Python's PyMC library
     through examples. How do we create Bayesian models? Examples
     include: 
+
     - Detecting the frequency of cheating students, while
     avoiding liars.  
     - Calculating probabilities of space-shuttle disasters.
@@ -94,7 +96,8 @@ can be downloaded by cloning! )
 * [**Chapter 4: The Greatest Theorem Never
     Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law
-    of Large Numbers. Examples include: 
+    of Large Numbers. Examples include:
+
     - Exploring a Kaggle dataset and the pitfalls of naive analysis 
     - How to sort Reddit comments from best to worst (not as easy as you think)
     
@@ -121,32 +124,50 @@ can be downloaded by cloning! )
 * **Chapter X2: Bayesian methods in Machine Learning** We explore how
     to resolve the overfitting problem plus popular ML methods. Also
     included are probablistic explainations of Ridge Regression and
-    LASSO Regression.  
+    LASSO Regression.
+
     - Bayesian spam filtering plus *how to defeat Bayesian spam filtering* 
     - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem
     
 * **Chapter X3: More PyMC Hackery**
     We explore the gritty details of PyMC. Examples include:
+
     -  Analysis on real-time GitHub repo stars and forks.
 
 * **Chapter X4: Troubleshooting and debugging**
 
     
-**More questions about PyMC?**
-Please post your modeling, convergence, or any other PyMC question on [cross-validated](http://stats.stackexchange.com/), the statistcs stack-exchange.
+**More questions about PyMC?** Please post your modeling, convergence,
+or any other PyMC question on
+[cross-validated](http://stats.stackexchange.com/), the statistcs
+stack-exchange.
     
     
 Using the book
 -------
 
-The book can be read in three different ways, starting from most recommended to least recommended: 
+The book can be read in three different ways, starting from most
+recommended to least recommended:
 
-1. The most recommended option is to clone the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
-chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
-this book, though it comes with some dependencies. 
-    -  IPython 0.13 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
-    -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
-    -  In the styles/ directory are a number of files that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib and the IPython notebook.
+1. The most recommended option is to clone the repository and download
+the .ipynb files to your local machine. If you have IPython installed,
+you can view the chapters in your browser *plus* edit and run the code
+provided (and try some practice questions). This is the preferred
+option to read this book, though it comes with some dependencies.  
+
+  - IPython 0.13 is a requirement to view the ipynb files. It can be
+downloaded
+[here](http://ipython.org/ipython-doc/dev/install/index.html)
+
+  - For Linux users, you should not have a problem installing Numpy,
+Scipy and PyMC. For Windows users, check out [pre-compiled
+versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have
+difficulty.
+
+  - In the styles/ directory are a number of files that used to make
+things pretty. These are not only designed for the book, but they
+offer many improvements over the default settings of matplotlib and
+the IPython notebook.
  
 2. The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
