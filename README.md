@@ -155,19 +155,19 @@ you can view the chapters in your browser *plus* edit and run the code
 provided (and try some practice questions). This is the preferred
 option to read this book, though it comes with some dependencies.  
 
-    - IPython 0.13 is a requirement to view the ipynb files. It can be
-    downloaded
-    [here](http://ipython.org/ipython-doc/dev/install/index.html)
+   - IPython 0.13 is a requirement to view the ipynb files. It can be
+   downloaded
+   [here](http://ipython.org/ipython-doc/dev/install/index.html)
 
-    - For Linux users, you should not have a problem installing Numpy,
-    Scipy and PyMC. For Windows users, check out [pre-compiled
-    versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have
-    difficulty.
+   - For Linux users, you should not have a problem installing Numpy,
+   Scipy and PyMC. For Windows users, check out [pre-compiled
+   versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have
+   difficulty.
 
-    - In the styles/ directory are a number of files that used to make
-    things pretty. These are not only designed for the book, but they
-    offer many improvements over the default settings of matplotlib and
-    the IPython notebook.
+   - In the styles/ directory are a number of files that used to make
+   things pretty. These are not only designed for the book, but they
+   offer many improvements over the default settings of matplotlib and
+   the IPython notebook.
  
 2. The second, preferred, option is to use the nbviewer.ipython.org
 site, which display IPython notebooks in the browser
