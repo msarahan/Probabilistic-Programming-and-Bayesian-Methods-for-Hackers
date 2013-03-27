@@ -5,16 +5,51 @@ Probabilistic Programming and Bayesian Methods for Hackers
 
 
 
-Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a *so-what* feeling about Bayesian inference. In fact, this was the author's own prior opinion.
+Bayesian method is the natural approach to inference, yet it is hidden
+from readers behind chapters of slow, mathematical analysis. The
+typical text on Bayesian inference involves two to three chapters on
+probability theory, then enters into what Bayesian inference
+is. Unfortunately, due to mathematical intractability of most Bayesian
+models, the reader is only shown simple, artificial examples. This can
+leave the user with a *so-what* feeling about Bayesian inference. In
+fact, this was the author's own prior opinion.
 
 
-<div style="float: right;"><img style="float: right;" src="http://i.imgur.com/25xEomH.png" align=right height = 390 /></div>
+<div style="float: right;"><img style="float: right;"
+src="http://i.imgur.com/25xEomH.png" align=right height = 390 /></div>
 
-After some recent success of Bayesian methods in machine-learning competitions, I decided to investigate the subject again. Even with my mathematical background, it took me three straight-days of reading examples and trying to put the pieces together to understand the methods. There was simplely not enough literature bridging theory to practice. The problem with my misunderstanding was the disconnect between Bayesian mathematics and probabilistic programming. That being said, I suffered then so the reader would not have to now. This book attempts to bridge the gap.
+After some recent success of Bayesian methods in machine-learning
+competitions, I decided to investigate the subject again. Even with my
+mathematical background, it took me three straight-days of reading
+examples and trying to put the pieces together to understand the
+methods. There was simplely not enough literature bridging theory to
+practice. The problem with my misunderstanding was the disconnect
+between Bayesian mathematics and probabilistic programming. That being
+said, I suffered then so the reader would not have to now. This book
+attempts to bridge the gap.
 
-If Bayesian inference is the destination, then mathematical analysis is a particular path to it. On the other hand, computing power is cheap enough that we can afford to take an alternate route via probabilistic programming. The path is much more useful, as it denies the necessity of mathematical intervention at each step, that is, we remove often-intractable mathematical analysis as a prerequisite to Bayesian inference. Simply put, this computational path proceeds via small intermediate jumps from beginning to end, where as the first path proceeds by enormous leaps, often landing far away from our target. Furthermore, without a strong mathematical background, the analysis required by the first path cannot even take place.
+If Bayesian inference is the destination, then mathematical analysis
+is a particular path to it. On the other hand, computing power is
+cheap enough that we can afford to take an alternate route via
+probabilistic programming. The path is much more useful, as it denies
+the necessity of mathematical intervention at each step, that is, we
+remove often-intractable mathematical analysis as a prerequisite to
+Bayesian inference. Simply put, this computational path proceeds via
+small intermediate jumps from beginning to end, where as the first
+path proceeds by enormous leaps, often landing far away from our
+target. Furthermore, without a strong mathematical background, the
+analysis required by the first path cannot even take place.
 
-*Probabilistic Programming and Bayesian Methods for Hackers* is designed as a introduction to Bayesian inference from a computational/understanding-first, and mathematics-second, point of view. Of course as an introductory book, we can only leave it at that: an introductory book. For the mathematically trained, they may cure their curiousity this text generates with other texts designed with mathematical analysis in mind. For the enthusiast with less mathematical-background, or one who is not interested in the mathematics but simply the practice of Bayesian methods, this text should be sufficient and entertaining.
+*Probabilistic Programming and Bayesian Methods for Hackers* is
+ designed as a introduction to Bayesian inference from a
+ computational/understanding-first, and mathematics-second, point of
+ view. Of course as an introductory book, we can only leave it at
+ that: an introductory book. For the mathematically trained, they may
+ cure their curiousity this text generates with other texts designed
+ with mathematical analysis in mind. For the enthusiast with less
+ mathematical-background, or one who is not interested in the
+ mathematics but simply the practice of Bayesian methods, this text
+ should be sufficient and entertaining.
 
 
 The choice of PyMC as the probabilistic programming language is two-fold. As of this writing, there is currently no central resource for examples and explanations in the PyMC universe. The official documentation assumes prior knowledge of Bayesian inference and probabilistic programming. We hope this book encourages users at every level to look at PyMC. Secondly, with recent core developments and popularity of the scientific stack in Python, PyMC is likely to become a core component soon enough.
@@ -26,29 +61,40 @@ Contents
 ------
 
 (The below chapters are rendered via the *nbviewer* at
-[nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only and rendered in real-time.
-Interactive notebooks + examples can be downloaded by cloning! )
+[nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is
+read-only and rendered in real-time.  Interactive notebooks + examples
+can be downloaded by cloning! )
 
 
-* [**Prologue.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
+*
+  [**Prologue.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb)
+  Why we do it.
 
-* [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
-    Introduction to the philosophy and practice of Bayesian methods and answering the question "What is probabilistic programming?" Examples include:
-    - Inferring human behaviour changes from text message rates.
+* [**Chapter 1: Introduction to Bayesian
+    Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
+    Introduction to the philosophy and practice of Bayesian methods
+    and answering the question "What is probabilistic programming?"
+    Examples include: - Inferring human behaviour changes from text
+    message rates.
     
-* [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
-    We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
-    - Detecting the frequency of cheating students, while avoiding liars.
-    - Calculating probabilities of space-shuttle disasters.
+* [**Chapter 2: A little more on
+    PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
+    We explore modeling Bayesian problems using Python's PyMC library
+    through examples. How do we create Bayesian models? Examples
+    include: - Detecting the frequency of cheating students, while
+    avoiding liars.  - Calculating probabilities of space-shuttle
+    disasters.
     
 * [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
     We discuss how MCMC operates and diagnostic tools. Examples include:
     - Bayesian clustering with mixture models
     
-* [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
-    We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
-    - Exploring a Kaggle dataset and the pitfalls of naive analysis
-    - How to sort Reddit comments from best to worst (not as easy as you think)
+* [**Chapter 4: The Greatest Theorem Never
+    Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
+    We explore an incredibly useful, and dangerous, theorem: The Law
+    of Large Numbers. Examples include: - Exploring a Kaggle dataset
+    and the pitfalls of naive analysis - How to sort Reddit comments
+    from best to worst (not as easy as you think)
     
 * [**Chapter 5: Would you rather loss an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/LossFunctions.ipynb)
     The introduction of Loss functions and there (awesome) use in Bayesian methods.  Examples include:
@@ -56,20 +102,24 @@ Interactive notebooks + examples can be downloaded by cloning! )
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition.
     
-* **Chapter 6: Getting our *prior*-ities straight**
-    Probably the most important chapter. We draw on expert opinions to answer questions like:
+* **Chapter 6: Getting our *prior*-ities straight** Probably the most
+    important chapter. We draw on expert opinions to answer questions
+    like:
     
     - how do we pick priors?  
     - what is the relationship between data sample size and prior?
     
-    We explore useful tips to be objective in analysis, and common pitfalls of priors. 
+    We explore useful tips to be objective in analysis, and common
+    pitfalls of priors.
    
 * **Chapter X1: Bayesian Markov Models**
     
-* **Chapter X2: Bayesian methods in Machine Learning** 
-    We explore how to resolve the overfitting problem plus popular ML methods. Also included are probablistic explainations of Ridge Regression and LASSO Regression.
-    - Bayesian spam filtering plus *how to defeat Bayesian spam filtering*
-    - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem 
+* **Chapter X2: Bayesian methods in Machine Learning** We explore how
+    to resolve the overfitting problem plus popular ML methods. Also
+    included are probablistic explainations of Ridge Regression and
+    LASSO Regression.  
+    - Bayesian spam filtering plus *how to defeat Bayesian spam filtering* 
+    - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem
     
 * **Chapter X3: More PyMC Hackery**
     We explore the gritty details of PyMC. Examples include:
