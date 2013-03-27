@@ -66,8 +66,7 @@ read-only and rendered in real-time.  Interactive notebooks + examples
 can be downloaded by cloning! )
 
 
-*
-  [**Prologue.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb)
+* [**Prologue.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb)
   Why we do it.
 
 * [**Chapter 1: Introduction to Bayesian
@@ -97,10 +96,12 @@ can be downloaded by cloning! )
     from best to worst (not as easy as you think)
     
 * [**Chapter 5: Would you rather loss an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/LossFunctions.ipynb)
-    The introduction of Loss functions and there (awesome) use in Bayesian methods.  Examples include:
-    - Solving the Price is Right's Showdown
-    - Optimizing financial predictions
-    - Winning solution to the Kaggle Dark World's competition.
+    The introduction of Loss functions and there (awesome) use in
+    Bayesian methods.  Examples include:
+
+   * Solving the Price is Right's Showdown
+   * Optimizing financial predictions
+   * Winning solution to the Kaggle Dark World's competition.
     
 * **Chapter 6: Getting our *prior*-ities straight** Probably the most
     important chapter. We draw on expert opinions to answer questions
