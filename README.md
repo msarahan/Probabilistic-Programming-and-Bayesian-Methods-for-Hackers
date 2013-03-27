@@ -80,12 +80,15 @@ can be downloaded by cloning! )
     PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
     We explore modeling Bayesian problems using Python's PyMC library
     through examples. How do we create Bayesian models? Examples
-    include: - Detecting the frequency of cheating students, while
-    avoiding liars.  - Calculating probabilities of space-shuttle
-    disasters.
+    include: 
+    - Detecting the frequency of cheating students, while
+    avoiding liars.  
+    - Calculating probabilities of space-shuttle disasters.
     
 * [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
-    We discuss how MCMC operates and diagnostic tools. Examples include:
+    We discuss how MCMC operates and diagnostic tools. Examples
+    include:
+
     - Bayesian clustering with mixture models
     
 * [**Chapter 4: The Greatest Theorem Never
@@ -99,15 +102,16 @@ can be downloaded by cloning! )
     The introduction of Loss functions and there (awesome) use in
     Bayesian methods.  Examples include:
 
-   * Solving the Price is Right's Showdown
-   * Optimizing financial predictions
-   * Winning solution to the Kaggle Dark World's competition.
+    - Solving the Price is Right's Showdown
+    - Optimizing financial predictions
+    - Winning solution to the Kaggle Dark World's competition.
     
+
 * **Chapter 6: Getting our *prior*-ities straight** Probably the most
     important chapter. We draw on expert opinions to answer questions
     like:
     
-    - how do we pick priors?  
+    - how do we pick priors?
     - what is the relationship between data sample size and prior?
     
     We explore useful tips to be objective in analysis, and common
